@@ -55,7 +55,7 @@ The first 2 rounds will have 3x2 matching images, as the game progresses there w
 
 - __Button to begin the game__
 
-    - This is prominently placed on the home screen, and is a straightforward link to being the game.
+    - This is prominently placed on the home screen, and is a straightforward link to begin the game.
 
 
 
