@@ -1,4 +1,5 @@
 .landingPage {
-    background-image: url('images/heroimageforpuzzle.jpg');
-    background-size: cover;
+    background-image: url('images/heroimageforpuzzle.jpg') no-repeat center center fixed;
+    height: 80%;
+    width: 100%;
 }
