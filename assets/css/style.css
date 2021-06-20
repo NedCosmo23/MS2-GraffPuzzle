@@ -1,7 +1,18 @@
-.home-background {
-    background-image: url('/assets/images/heroimageforpuzzle.jpg');
-  background-size: cover;
-  background-attachment: fixed;
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  /* The image used */
+  background-image: url(/assets/images/heroimageforpuzzle.jpg);
+
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
