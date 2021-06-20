@@ -16,3 +16,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Font Styling */
+
+h1{
+        font-family: 'Permanent Marker', cursive;
+       }
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
