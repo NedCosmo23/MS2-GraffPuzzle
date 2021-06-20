@@ -1,28 +1,46 @@
-body, html {
-  height: 100%;
-  margin: 0;
+/* Home Page Styling */
+
+body,
+html {
+	height: 100%;
+	margin: 0;
 }
 
 body {
-  /* The image used */
-  background-image: url(/assets/images/heroimageforpuzzle.jpg);
-
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-image: url(/assets/images/heroimageforpuzzle.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
+
 
 /* Font Styling */
 
-h1{
-        font-family: 'Permanent Marker', cursive;
-       }
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color: seagreen;
+    
+}
 
-p{
+p {
     font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    color: purple;
+}
+
+/* Button Styling  */
+
+.start-btn {
+    border: 2px solid purple;
+    color: seashell;
+    background-color: seagreen;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 23px;
+	margin: 4px 2px;
+	cursor: pointer;
 }
