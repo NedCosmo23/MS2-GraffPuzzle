@@ -9,15 +9,18 @@
 body {
   height: 100vh;
   display: flex;
-  background: #060AB2;
+  background: rgb(141, 178, 6);
 }
 
 .memory-game {
   width: 640px;
   height: 640px;
+  max-height: 90%;
+ 
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+
 }
 
 

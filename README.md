@@ -116,6 +116,10 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
  - Landing page hero image - https://www.odeith.com/
 
+ - Images for 'cards' from:
+ + 'https://www.irvinetimes.com/news/17879467.graffiti-artists-latest-masterpiece-appears-irvine/'
+ +
+
 ### Content 
 
 - The template i used for the game itself was from "https://marina-ferreira.github.io/tutorials/js/memory-game/" I used this template as it is the closest i could find to how i envisioned my game.
