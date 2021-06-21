@@ -118,7 +118,9 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
  - Images for 'cards' from:
  + 'https://www.irvinetimes.com/news/17879467.graffiti-artists-latest-masterpiece-appears-irvine/'
- +
+ + 'https://www.egowarmagazine.com/endless/'
+ + 'https://www.egowarmagazine.com/egowar-20-season/'
+ + 'https://www.pinterest.co.uk/pin/741897738600612012/'
 
 ### Content 
 
