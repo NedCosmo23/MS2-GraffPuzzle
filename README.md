@@ -28,7 +28,7 @@ The first 2 rounds will have 3x2 matching images, as the game progresses there w
     -   #### Typography
         -   The fonts used are in keeping with the graffiti aesthetic (i.e. serif, hand drawn looking fonts).
     -   #### Imagery
-        -   Imagery makes up the large majority of the UX for this game, luckily graffit is rich in source material. The hero image for the home page, before the game starts, is bright, colourful, and immediatley portrays the mood of the game to follow.
+        -   Imagery makes up the large majority of the UX for this game, luckily graffiti is rich in source material. The hero image for the home page, before the game starts, is bright, colourful, and immediatley portrays the mood of the game to follow.
 
 -   ### Wireframes
 
@@ -118,9 +118,9 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The template i used for the game itself was from "https://marina-ferreira.github.io/tutorials/js/memory-game/" I used this template as it is the closest i could find to how i envisioned my game.
+
+- 
 
 ### Media
 
