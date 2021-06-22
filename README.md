@@ -61,15 +61,14 @@ The first 2 rounds will have 3x2 matching images, as the game progresses there w
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+    - The landing page image is there to catch peoples attention once they have arrived at the site, and is also an image of graffiti so as to set the tone of the entire site.
 
         INSERT LINK/IMAGE OF LANDING PAGE!
 
-- __Club Ethos Section__
+- __The Game__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This page is very simple in it's layout. The background of the page doesn't want to be too busy (i.e. with a backgorund image) as it will take the focus away from the game itself.
+  - 
 
 
 ### Features Left to Implement
@@ -124,9 +123,9 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ### Content 
 
-- The template i used for the game itself was from "https://marina-ferreira.github.io/tutorials/js/memory-game/" I used this template as it is the closest i could find to how i envisioned my game.
+- The template I used for the game itself was from "https://marina-ferreira.github.io/tutorials/js/memory-game/" I used this template as it is the closest i could find to how i envisioned my game.
 
-- 
+- The template i used for the modal on the home page was from "https://www.w3schools.com/howto/howto_css_modals.asp"
 
 ### Media
 

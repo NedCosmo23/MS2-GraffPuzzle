@@ -54,6 +54,8 @@ body {
   backface-visibility: hidden;
 }
 
+/* Card Animation */
+
 .front-face{
     transform: rotateY(180deg);
 
