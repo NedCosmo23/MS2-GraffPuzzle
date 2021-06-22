@@ -58,7 +58,7 @@ p {
 	display: inline-block;
 	font-size: 23px;
 	margin: 4px 2px;
-	cursor: pointer;
+	cursor: crosshairs;
 }
 
  /* The Modal (background) */

@@ -23,6 +23,12 @@ body {
 
 }
 
+.timer {
+    display: inline-block;
+    margin: 0 1rem;
+}
+ 
+
 /* Individual Card Styling */
 
 .memory-card {

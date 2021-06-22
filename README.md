@@ -17,7 +17,7 @@ The first 2 rounds will have 3x2 matching images, as the game progresses there w
 
 -   Returning Time User Goals:
 
-    1. As a returning visitor, I want to see if ii can improve on my previous score/time.
+    1. As a returning visitor, I want to see if I can improve on my previous score/time.
     2. As a returning visitor, I want see if the game has been updated with more images/ different combinations.
     3. As a returning visitor, I want want to compete, show to, or even show off my skills to a friend.
 
