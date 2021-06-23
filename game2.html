@@ -59,9 +59,11 @@
     <link href="starter-template.css" rel="stylesheet">
   </head>
   <body>
+
+    <!-- Navigation bar --> 
     
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="game2.html">Graffiti Memory Game</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -69,36 +71,86 @@
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="index.html">Home </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+        <a class="nav-link" href="game2.html">Game<span class="sr-only">(current)</span></a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
+     </div>
 </nav>
 
 <main role="main" class="container">
 
-  <div class="starter-template">
-    <h1>Bootstrap starter template</h1>
-    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+  
+
+
+<!-- Memory game 'cards' -->
+<div class="memory-game">
+  <div class="memory-card" data-framework="skulltentacles">
+    <img class="front-face" src="/assets/images/graffitipuzzle1.jpg" alt="SkullTenticles">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
   </div>
+
+  <div class="memory-card" data-framework="pubestrain">
+    <img class="front-face" src="/assets/images/graffitipuzzle2.jpg" alt="PubesTrain">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card" data-framework="dogboy">
+    <img class="front-face" src="/assets/images/graffitipuzzle3.jpg" alt="DogBoy">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card" data-framework="londontrain">
+    <img class="front-face" src="/assets/images/graffitipuzzle4.jpg" alt="LondonTrain">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card" data-framework="odestrain">
+    <img class="front-face" src="/assets/images/graffitipuzzle5.jpg" alt="OdesTrain">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card" data-framework="cattrain">
+    <img class="front-face" src="/assets/images/graffitipuzzle6.jpg" alt="CatTrain">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card" data-framework="londontrain">
+    <img class="front-face" src="/assets/images/graffitipuzzle4.jpg" alt="LondonTrain">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card" data-framework="pubestrain">
+    <img class="front-face" src="/assets/images/graffitipuzzle2.jpg" alt="PubesTrain">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card" data-framework="skulltentacles">
+    <img class="front-face" src="/assets/images/graffitipuzzle1.jpg" alt="SkullTenticles">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card" data-framework="dogboy">
+    <img class="front-face" src="/assets/images/graffitipuzzle3.jpg" alt="DogBoy">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card" data-framework="cattrain">
+    <img class="front-face" src="/assets/images/graffitipuzzle6.jpg" alt="CatTrain">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
+  </div>
+
+  <div class="memory-card" data-framework="odestrain">
+    <img class="front-face" src="/assets/images/graffitipuzzle5.jpg" alt="OdesTrain">
+    <img class="back-face" src="/assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
+  </div>
+</div>
+
+
+
+<script src="/assets/js/game.js"></script>
 
 </main><!-- /.container -->
 
