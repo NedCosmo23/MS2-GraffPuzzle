@@ -129,7 +129,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 - I used  "https://marina-ferreira.github.io/tutorials/js/memory-game/" for the game functionality. I used this template as it is the closest i could find to how i envisioned my game.
 
-- The template i used for the modal on the home page was from "https://www.w3schools.com/howto/howto_css_modals.asp"
+- The template I used for the navbar  was from "https://getbootstrap.com/docs/4.0/components/navbar/"
 
 ### Media
 
