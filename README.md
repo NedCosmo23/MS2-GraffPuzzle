@@ -44,11 +44,14 @@ The first 2 rounds will have 3x2 matching images, as the game progresses there w
 
 -   Interactive elements
 
-### Languages Used
+### Technologies Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 -   [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+-   [Bootstrap 4.0.0] (https://getbootstrap.com/docs/4.0/getting-started/download/)
+-   [GitHub] (https://github.com/)
+-   [GitPod] (https://www.gitpod.io/)
 
 
 ### Existing Features
