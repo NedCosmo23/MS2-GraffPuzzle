@@ -43,8 +43,8 @@ body {
 }
 
 .memory-game {
-  width: 640px;
-  height: 640px;
+  width: auto;
+  height: auto;
   max-height: 90%;
   max-width: 90%;
   padding: 70px; 
