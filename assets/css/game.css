@@ -1,3 +1,9 @@
+/* Navbar Styling */
+
+.navbar-brand{
+    font-family:'Permanent Marker', cursive ;
+}
+
 /* Game Styling  */
 
 * {
@@ -23,10 +29,6 @@ body {
 
 }
 
-.timer {
-    display: inline-block;
-    margin: 0 1rem;
-}
  
 
 /* Individual Card Styling */

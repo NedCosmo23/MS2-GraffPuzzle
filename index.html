@@ -7,6 +7,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="assets/css/style.css">
       <title>Graffiti Memory Game</title>
    </head>
@@ -14,24 +15,26 @@
    <body>
 <!-- Navigation bar --> 
 
-<nav class="navbar">
-  <a href="/index.html" class="w3-button w3-bar-item">Home</a>
-  <a href="/game.html" class="w3-button w3-bar-item">Game</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Graff Memory Game</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="game.html">Game</a>
+      </li>
+     
+    </ul>
+  
 </nav>
 
-   <!-- Trigger/Open The Modal -->
-<button id="myBtn">About the Game</button>
-
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Want to test your memory? Maybe you feel there's room for improvement? This simple game could help! Simply Match the 6 pairs of images with as few clicks as possible. Play the <a href="/game.html">Game</a> </p>
-  </div>
-
-    </div> 
+  
 
 </body>
 

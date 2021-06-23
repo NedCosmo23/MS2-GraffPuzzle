@@ -28,6 +28,12 @@ body {
 }
     
 
+/* Navbar Styling */
+
+.navbar-brand{
+    font-family:'Permanent Marker', cursive ;
+}
+
 
 /* Font Styling */
 

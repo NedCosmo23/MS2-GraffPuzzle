@@ -93,6 +93,10 @@ If this section grows too long, you may want to split it off into a separate fil
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
+### Bugs
+
+I ran into quite a few issues when using different tutorials and templates. The tutorial/template I followed to create the game page ended up being quite limited, and when I tried to edit/add to it, I ran into a number of issues.
+
 ### Unfixed Bugs
 
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
@@ -123,7 +127,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 
 ### Content 
 
-- The template I used for the game itself was from "https://marina-ferreira.github.io/tutorials/js/memory-game/" I used this template as it is the closest i could find to how i envisioned my game.
+- I used  "https://marina-ferreira.github.io/tutorials/js/memory-game/" for the game functionality. I used this template as it is the closest i could find to how i envisioned my game.
 
 - The template i used for the modal on the home page was from "https://www.w3schools.com/howto/howto_css_modals.asp"
 
