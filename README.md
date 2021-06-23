@@ -32,7 +32,7 @@ The first 2 rounds will have 3x2 matching images, as the game progresses there w
 
 -   ### Wireframes
 
-    -   Home Page Wireframe - ! [Home page wireframe](./assets/images/ms2GraffPuzzle.png)
+    -   Home Page Wireframe - ![Home page wireframe](https://github.com/NedCosmo23/MS2-GraffPuzzle/raw/master/assets/images/ms2GraffPuzzle.png)
 
     -   Mobile Wireframe - 
 
