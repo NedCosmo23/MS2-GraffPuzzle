@@ -1,77 +1,59 @@
+
+
 const cards = document.querySelectorAll('.memory-card');
 
-let hasFlippedCard = false;
+let hasFlipped = false;
 let lockBoard = false;
-let firstCard, secondCard;
+let first, second;
 
-function flipCard() {
+// Flips card that is clicked on
+function flip() {
     if (lockBoard) return;
-
-    if (this === firstCard) return;
-
+    if (this === first) return;
     this.classList.add('flip');
 
-
-    if (!hasFlippedCard) {
-        hasFlippedCard = true;
-        firstCard = this;
+    if (!hasFlipped) {
+        hasFlipped = true;
+        first = this;
         return;
-
     }
 
-
-    secondCard = this;
-
-
-
-
+// Checks if first and second card are a match
+    second = this;
     checkForMatch();
-
 }
-
 
 function checkForMatch() {
-
-    let isMatch = firstCard.dataset.framework === secondCard.dataset.framework;
-
-    isMatch ? disableCards() : unflipCards();
-
+    let isMatch = first.dataset.framework === second.dataset.framework;
+    isMatch ? disableCards() : unflip();
 }
 
-
+// Stops more than 2 cards being flipped at a time
 function disableCards() {
-
-    firstCard.removeEventListener('click', flipCard);
-    secondCard.removeEventListener('click', flipCard);
-
+    first.removeEventListener('click', flip);
+    second.removeEventListener('click', flip);
     resetBoard();
-
 }
 
 
-function unflipCards() {
+function unflip() {
     lockBoard = true;
 
+// Flips cards back over if the 2 are not a match
     setTimeout(() => {
-
-        firstCard.classList.remove('flip');
-
-        secondCard.classList.remove('flip');
-
+        first.classList.remove('flip');
+        second.classList.remove('flip');
         resetBoard();
     }, 1500);
 
 }
 
 function resetBoard() {
-
-    [hasFlippedCard, lockBoard] = [false, false];
-
-    [firstCard, secondCard] = [null, null];
-
+    [hasFlipped, lockBoard] = [false, false];
+    [first, second] = [null, null];
 }
-//
 
+//Shuffles the deck
 (function shuffle() {
 
     cards.forEach(card => {
@@ -85,25 +67,6 @@ function resetBoard() {
 })();
 
 
-//game timer
-var second = 0,
-    minute = 0;
-var timer = document.querySelector(".timer");
-var interval;
 
-function startTimer() {
-    interval = setInterval(function () {
-        timer.innerHTML = minute + "mins " + second + "secs";
-        second++;
-        if (second == 60) {
-            minute++;
-            second = 0;
-        }
-        if (minute == 60) {
-            hour++;
-            minute = 0;
-        }
-    }, 1000);
-}
 
-cards.forEach(card => card.addEventListener('click', flipCard));
+cards.forEach(card => card.addEventListener('click', flip));
