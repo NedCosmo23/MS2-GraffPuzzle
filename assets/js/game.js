@@ -66,6 +66,10 @@ function resetBoard() {
 
 })();
 
+function winGame(){
+    
+}
+
 
 
 

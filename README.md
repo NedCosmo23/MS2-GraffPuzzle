@@ -2,8 +2,8 @@
 
 The idea for this project is to make a fun, visually interesting memory game. 
 
-The game is simple in format, to start there are 6 'cards' with images which the user will see for around a second, then they will be 'face down'. To reveal the images again, the card must be clicked on, the user then has around a second of viewing the image before it is 'flipped over' again. 
-The first 2 rounds will have 3x2 matching images, as the game progresses there will be more couples to match (4x2, 5x2, 6x2). The idea is to match the images in as short a time as possible.
+The game is simple in format, to start there are 12 'cards'  which will be 'face down'. To reveal the images, the card must be clicked on, the user then has around a second of viewing the image before it is 'flipped over' again. 
+The idea is to match the images in as short a time as possible.
 
 ## User Experience (UX)
 
@@ -34,7 +34,7 @@ The first 2 rounds will have 3x2 matching images, as the game progresses there w
 
     -   Home Page Wireframe - ![Home page wireframe](https://github.com/NedCosmo23/MS2-GraffPuzzle/raw/master/assets/images/ms2GraffPuzzle.png)
 
-    -   Game Wireframe - ![Game page wireframe](https://github.com/NedCosmo23/MS2-GraffPuzzle/blob/master/assets/images/Gamewireframe.png)
+    -   Game Wireframe - ![Game page wireframe](https://raw.githubusercontent.com/NedCosmo23/MS2-GraffPuzzle/master/assets/images/Gamewireframe.png)
 
 
 ## Features 
@@ -65,8 +65,6 @@ The first 2 rounds will have 3x2 matching images, as the game progresses there w
 - __The landing page image__
 
     - The landing page image is there to catch peoples attention once they have arrived at the site, and is also an image of graffiti so as to set the tone of the entire site.
-
-        INSERT LINK/IMAGE OF LANDING PAGE!
 
 - __The Game__
 

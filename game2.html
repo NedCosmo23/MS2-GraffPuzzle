@@ -17,16 +17,13 @@
 </head>
 
 <body>
-
     <!-- Navigation bar -->
-
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="game2.html">Graffiti Memory Game</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars"
             aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbars">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -39,10 +36,10 @@
         </div>
     </nav>
 
-    <main class="container">
-
+    <!--Memory Game-->
+   
         <!-- Memory game 'cards' -->
-        <div class="memory-game">
+        <div class="memory-game container col-lg-8 col-md-10 col-sm-12">
             <div class="memory-card" data-framework="skulltentacles">
                 <img class="front-face" src="./assets/images/graffitipuzzle1.jpg" alt="SkullTenticles">
                 <img class="back-face" src="./assets/images/graffitipuzzlecardback1.jpg" alt="Memory Card">
@@ -104,7 +101,7 @@
             </div>
         </div>
        
-    </main><!-- /.container -->
+    
 
      <script src="./assets/js/game.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
