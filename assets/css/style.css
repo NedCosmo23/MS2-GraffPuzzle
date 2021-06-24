@@ -21,12 +21,21 @@
 }
 
 
+/* Jumbotron Styling */
+
+.jumbotron {
+    margin: 5% 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
 /* Font Styling */
 
 h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 40px;
-    color: seagreen;
+    color: seashell;
     text-align: center;
     
 }
@@ -34,7 +43,7 @@ h1 {
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 23px;
-    color: purple;
+    color: snow;
     text-align: center;
 }
 
